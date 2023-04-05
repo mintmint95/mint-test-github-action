@@ -12,7 +12,7 @@ jobs:
     steps:
 
     - name: Test
-    run: echo "Log message in GitHub action"
+      run: echo "Log message in GitHub action"
 
     # - name: Checkout code
     #   uses: actions/checkout@v2
