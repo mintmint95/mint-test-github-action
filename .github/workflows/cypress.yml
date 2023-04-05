@@ -11,7 +11,7 @@ jobs:
 
     steps:
 
-    name: Test
+    - name: Test
     run: echo "Log message in GitHub action"
 
     # - name: Checkout code
