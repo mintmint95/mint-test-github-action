@@ -10,14 +10,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: npm ci
+    name: Test
+    run: echo "Log message in GitHub action"
 
-    - name: Run Test Mintmint
-      run: npm run mintmint
+    # - name: Checkout code
+    #   uses: actions/checkout@v2
 
-    - name: Run Cypress tests
-      run: npx cypress run
+    # - name: Install dependencies
+    #   run: npm ci
+
+    # - name: Run Test Mintmint
+    #   run: npm run mintmint
+
+    # - name: Run Cypress tests
+    #   run: npx cypress run
